@@ -1,0 +1,28 @@
+{
+  "name": "day-1",
+  "version": "1.0.0",
+  "description": "Day 1 Training at syscloiyd",
+  "main": "./dist/app.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint",
+    "build": "tsc --project ./",
+    "doc": "jsdoc ./dist/functions.js -c ./jsdoc.config.json"
+  },
+  "author": "Shivam Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsdoc": "^3.6.7"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "eslint": "^7.30.0",
+    "jest": "^27.0.6",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  }
+}
