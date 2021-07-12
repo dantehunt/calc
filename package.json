@@ -7,7 +7,7 @@
     "test": "jest --coverage",
     "lint": "eslint",
     "build": "tsc --project ./",
-    "doc": "jsdoc ./dist/functions.js -c ./jsdoc.config.json"
+    "doc": "jsdoc ./dist/ -c ./jsdoc.config.json"
   },
   "author": "Shivam Singh",
   "license": "ISC",
